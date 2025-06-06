@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from './navbar.jsx';
 import './App.css';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://libraryy-rrp1.onrender.com';
 
 function App() {
   const [query, setQuery] = useState("");

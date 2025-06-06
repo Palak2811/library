@@ -104,41 +104,6 @@ function App() {
     
   </div>
 );
-
-  // return (
-  //   <div>
-  //     <Navbar/>
-  //     <h1>Browse Books</h1>
-  //     <input type="text" value={query} onChange={handleInputChange} placeholder="Search books..." />
-  //     <button onClick={handleSearch}>Search</button>
-
-  //     <div>
-  //       {books.length === 0 ? (
-  // <h2>Books loading</h2>):(<h1><strong>Top 10 Search Results</strong></h1>)}
-
-  //       {books.map((book) => (
-  //         <div key={book.id}>
-  //           <h2>{book.title}</h2>
-  //           <p><strong>Author(s):</strong> {book.authors.map((a) => a.name).join(", ")}</p>
-  //           {book.formats["image/jpeg"] && <img src={book.formats["image/jpeg"]} alt={book.title} width="100" />}
-  //           {getTextUrl(book) && <a href={getTextUrl(book)} target="_blank" rel="noopener noreferrer">📖 Read</a>}
-
-  //           <div>
-  //             <h4>Review</h4>
-  //             <textarea
-  //               value={newReview[book.id] || ''}
-  //               onChange={(e) => handleReviewChange(book.id, e.target.value)}
-  //               placeholder="Write your review here..."
-  //             ></textarea>
-  //             <button onClick={() => handleReviewSubmit(book.id)}>Submit Review</button>
-  //             {reviews[book.id] && <p><strong>Saved Review:</strong> {reviews[book.id]}</p>}
-
-  //           </div>
-  //         </div>
-  //       ))}
-  //     </div>
-  //   </div>
-  // );
 }
 
 export default App;

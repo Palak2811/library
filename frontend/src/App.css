@@ -1,0 +1,156 @@
+/* App.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.book-card img {
+  display: block;
+  margin: 10px auto;
+}
+
+textarea {
+  width: 100%;
+  min-height: 60px;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+  }
+
+  .search-button {
+    padding: 10px 16px;
+    background-color: #86a038;
+    color: white;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .search-button:hover {
+    background-color: #457624;
+  }
+  .review-section {
+    background-color: #fcf8f0;
+    padding: 24px;
+    border-radius: 12px;
+    margin: 30px auto;
+    max-width: 720px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    font-family: 'Georgia', serif;
+    border: 1px solid #e0d6c8;
+  }
+
+  .review-heading {
+    font-size: 1.7rem;
+    margin-bottom: 16px;
+    color: #5a3e1b;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .review-heading::before {
+    
+    font-size: 1.5rem;
+  }
+
+  .review-textarea {
+    width: 95%;
+    height: 90px;
+    padding: 14px;
+    border: 1px solid #d8cfc3;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fffdf8;
+    resize: vertical;
+    outline: none;
+    font-family: 'Georgia', serif;
+    transition: border-color 0.3s ease;
+  }
+
+  .review-textarea:focus {
+    border-color: #a17952;
+  }
+
+  .submit-button {
+    margin-top: 14px;
+    padding: 10px 22px;
+    background-color: #a17952;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: 'Georgia', serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .submit-button:hover {
+    background-color: #8c6239;
+  }
+
+  .saved-review {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #3b2e1d;
+  }
+
+  .saved-review span {
+    font-weight: normal;
+    color: #5f4b32;
+    font-style: italic;
+  }
+  .read-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Georgia', serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-decoration-color: #f5f2ee;
+    background-color: #e8d3ad;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #ca9759;
+    border: 1px solid #e0d6c8;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .read-link:hover {
+    background-color: #e9dfcc;
+    color: #3b2e1d;
+    text-decoration: none;
+  }
+
+  .read-link::before {
+    content: "📖";
+    font-size: 1rem;
+  }
+.imgg{
+  width: "200px";
+  height: "auto";
+  margin-top: "10px";
+  
+}

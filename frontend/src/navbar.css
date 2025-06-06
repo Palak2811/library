@@ -1,0 +1,60 @@
+.navbar {
+ position: sticky;
+  box-sizing: border-box;
+  top:0;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #e1ce93;
+
+  /* Border */
+  border-bottom: 4px solid rgb(159, 140, 34);  /* ✅ clearly visible bottom border */
+
+  color: rgb(93, 29, 29);
+  box-shadow: 0 2px 5px rgba(231, 181, 63, 0.2);
+  z-index: 1000;
+}
+.nav-content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1cqmin;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-links a {
+  color: rgb(109, 20, 20);
+transition: all 0.3s ease;
+  padding: 5px 10px;       /* Add padding for spacing inside the box */
+  border: 2px solid transparent;  /* Keeps layout consistent */
+  border-radius: 5px;  
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.nav-links a:hover {
+  color: #000000;
+  border-color: #ffcc00;   /* Shows the border on hover */
+  background-color: rgba(255, 255, 255, 0.1); /* Optional: light bg for highlight */
+
+}
+.content {
+  height: 2000px; /* Just for scroll effect demonstration */
+  padding: 2rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* spacing between logo and text */
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(38, 19, 19);
+}
+
+.logo-img {
+  height: 50px; /* adjust as needed */
+  width: auto;
+}
